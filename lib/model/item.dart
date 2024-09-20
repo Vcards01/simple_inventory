@@ -29,6 +29,8 @@ class Item {
 
   String? get description => _description;
 
+  String get location => _location;
+
   String get name => _name;
 
   int? get id => _id;
